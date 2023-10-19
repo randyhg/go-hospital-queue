@@ -1,0 +1,12 @@
+# Hospital Information
+HospitalName: "Rumah Sakit XYZ"
+HospitalAddress: "Jalan Kebenaran no. 123"
+Phone: "(021) 123-4567"
+
+# Host
+Host: "0.0.0.0:8888"
+
+# MySQL
+MySqlUrl: root:123456@tcp(127.0.0.1:3306)/hospital?charset=utf8mb4&parseTime=True&loc=Local
+MySqlMaxIdle: 5
+MySqlMaxOpen: 10
